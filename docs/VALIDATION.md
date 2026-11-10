@@ -17,7 +17,7 @@ Publication copy prepared: 2026-11-10.
 
 Offline checks cover daily-date normalization, weekends, session tails, missing FX volume, adjacent 4h blocks, DST, futures breaks, path rejection and synthetic saved-result loading.
 
-The workbench is designed to load Kronos on CPU and save inspectable scenario outputs after local setup. This publication copy passes 11 offline checks; they do not load the model or request market data.
+The author has run the workbench locally with Kronos on CPU, saving inspectable scenario outputs. This is not evidence of forecast accuracy or a runtime guarantee. This publication copy passes 11 offline checks; they do not load the model or request market data.
 
 Publication changes: English UI, catalog, messages and logs; project-relative launcher; pinned upstream setup; installation without automatic inference; synthetic replacement for the saved-result test fixture. No original market results, private paths, compiled launcher, model weights, runtime environment or caches are included.
 
