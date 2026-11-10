@@ -159,7 +159,7 @@ Upstream model: [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos), com
 
 If you need an independent review of a trading process or strategy — especially where tail risk, grid or martingale structures, or overfitting are a concern — or if you want a local research workbench adapted to your own desk:
 
-- Email: [telelyhina@icloud.com](mailto:telelyhina@icloud.com)
+- Email: [igor@telelyukhin.com](mailto:igor@telelyukhin.com)
 - LinkedIn: [Igor Telelyukhin](https://www.linkedin.com/in/igor-telelyukhin/)
 
 This repository is a demonstration of a local research tool. It does not install or start model inference until you run it yourself.
