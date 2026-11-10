@@ -1,8 +1,16 @@
 # Kronos Workbench
 
-### Bring a financial foundation model onto an ordinary CPU.
+> Explore Kronos on a local CPU with individual scenario paths, visible data-quality checks, and inspectable CSV/JSON outputs.
 
 ![Kronos Workbench architecture overview](assets/banner.svg)
+
+**Local CPU workflow** · **Individual scenario paths** · **Inspectable research artifacts**
+
+**Status:** `Research prototype · Local UI · Upstream model credited`
+
+[Overview](#in-30-seconds) · [Architecture](#architecture) · [Setup](#quick-start) · [Validation](docs/VALIDATION.md) · [Contact](#contact)
+
+**This is not investment advice.** Model paths are research outputs, not trading recommendations. Agreement across samples is not a calibrated probability of success.
 
 ## In 30 seconds
 
@@ -12,11 +20,7 @@ The contribution here is the **workbench**: market adapters, a browser interface
 
 The Kronos model itself was created by its upstream authors. This repository does not claim authorship of it.
 
-Model paths are research outputs, not trading recommendations. Agreement across samples is not a calibrated probability of success.
-
-**This is not investment advice.** Nothing in this repository is a recommendation to buy, sell, or hold any instrument.
-
-Built by **Igor Telelyukhin**, who organizes how people and businesses work with AI where mistakes are expensive. This workbench is one applied research tool. Independent stress testing of trading strategies — including tail risk, martingale and grid behavior, and curve fitting — is a separate consulting practice.
+Built by **Igor Telelyukhin**, who organizes how people and businesses work with AI where mistakes are expensive. This workbench is a published research tool. Independent stress testing of trading strategies is a [separate consulting practice](https://github.com/TelelyukhinIgor/TelelyukhinIgor/blob/main/docs/strategy-validation.md).
 
 ## For technical due diligence
 
@@ -36,13 +40,13 @@ Kronos Workbench makes those questions part of the workflow.
 ### Architecture
 
 ```mermaid
-flowchart LR
-  Sources["Binance and Yahoo adapters"] --> Closed["Closed, complete candles"]
-  Closed --> Model["Kronos mini or small on CPU"]
-  Model --> Paths["Sequential scenario paths"]
-  Paths --> QA["OHLC and volume quality flags"]
-  QA --> Artifacts["CSV, JSON, and PNG artifacts"]
-  UI["Local UI on 127.0.0.1:8765"] --> Closed
+flowchart TB
+  Sources[Binance and Yahoo adapters] --> Closed[Closed, complete candles]
+  Closed --> Model[Kronos mini or small on CPU]
+  Model --> Paths[Sequential scenario paths]
+  Paths --> QA[OHLC and volume quality flags]
+  QA --> Artifacts[CSV, JSON, and PNG artifacts]
+  UI[Local UI on 127.0.0.1:8765] --> Closed
   UI --> Artifacts
 ```
 
