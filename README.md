@@ -2,6 +2,8 @@
 
 > Explore Kronos on a local CPU with individual scenario paths, visible data-quality checks, and inspectable CSV/JSON outputs.
 
+A personal side study: exploring how a time-series foundation model behaves on market data. Not a service and not investment advice.
+
 ![Kronos Workbench architecture overview](assets/banner.svg)
 
 **Local CPU workflow** · **Individual scenario paths** · **Inspectable research artifacts**
@@ -115,7 +117,7 @@ See [Data contract](docs/DATA_CONTRACT.md) for instrument mappings, missing-volu
 
 ### What has been checked
 
-The workbench is designed to load Kronos on CPU and save inspectable scenario outputs after local setup. This publication copy passes 11 offline checks; they do not load the model or request market data.
+The author has run the workbench locally with Kronos on CPU, saving inspectable scenario outputs. This is not evidence of forecast accuracy or a runtime guarantee. This publication copy passes 11 offline checks; they do not load the model or request market data.
 
 The checks cover aggregation gaps, incomplete candles, daily dates, weekends, DST, futures breaks, safe result paths, and synthetic artifact loading. Those checks were re-run successfully on this publication host.
 
