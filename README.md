@@ -76,7 +76,7 @@ A longer map is in [Architecture](docs/ARCHITECTURE.md). The server binds only t
 
 ### Quick start
 
-Use Python **3.10–3.12**. The tested Intel macOS configuration uses Python 3.11, PyTorch 2.2.2, and NumPy 1.26.4.
+Use Python **3.10–3.12**. A recorded dependency set is Python 3.11, PyTorch 2.2.2, and NumPy 1.26.4. Confirm the environment on your machine before a full model run.
 
 ```bash
 git clone https://github.com/TelelyukhinIgor/kronos-workbench.git
@@ -115,11 +115,9 @@ See [Data contract](docs/DATA_CONTRACT.md) for instrument mappings, missing-volu
 
 ### What has been checked
 
-Historical runs established that the original workbench could load and run Kronos on CPU, save individual scenarios, and expose them through the local interface.
+The workbench is designed to load Kronos on CPU and save inspectable scenario outputs after local setup. This publication copy passes 11 offline checks; they do not load the model or request market data.
 
-This English publication copy passes **11 offline checks** covering aggregation gaps, incomplete candles, daily dates, weekends, DST, futures breaks, safe result paths, and synthetic artifact loading. Those checks were re-run successfully on this publication host. They do not load the model or request market data.
-
-Historical runtime measurements are environment-specific. They are not a promise about another machine or an estimate of forecast skill.
+The checks cover aggregation gaps, incomplete candles, daily dates, weekends, DST, futures breaks, safe result paths, and synthetic artifact loading. Those checks were re-run successfully on this publication host.
 
 ### Limits of applicability
 
