@@ -1,0 +1,12 @@
+kronos_env/
+Kronos/
+.python/
+.kronos_bootstrap/
+.cache/
+.tmp/
+signals/
+__pycache__/
+*.pyc
+.DS_Store
+.env*
+!.env.example

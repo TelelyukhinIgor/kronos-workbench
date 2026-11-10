@@ -1,0 +1,12 @@
+Kronos Workbench
+Copyright (c) 2026 Igor Telelyukhin
+
+Required Notice: Copyright (c) 2026 Igor Telelyukhin (https://www.linkedin.com/in/igor-telelyukhin/)
+
+Original workbench code and documentation in this repository are licensed under the PolyForm Noncommercial License 1.0.0. See LICENSE. Commercial use requires a separate license from the author.
+
+The Kronos model is not bundled here. Setup retrieves the recorded upstream commit from https://github.com/shiyu-coder/Kronos. Upstream model code remains under the MIT license preserved in UPSTREAM-LICENSE. Model-weight terms remain those published with the model assets. Python dependencies and market-data sources retain their respective licenses and terms. See THIRD_PARTY.md.
+
+This publication copy does not include model weights, provider datasets, saved forecast histories, or production credentials.
+
+This software is research tooling. It is not investment advice and does not constitute a trading system.
