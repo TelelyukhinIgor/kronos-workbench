@@ -6,4 +6,4 @@ Its MIT code notice is preserved in UPSTREAM-LICENSE. Setup downloads upstream c
 
 Python dependencies and market-data sources retain their respective licenses and terms. No model weights or provider datasets are distributed in this package.
 
-Original workbench code and documentation are by Igor Telelyukhin with AI assistance, and are licensed under the PolyForm Noncommercial License 1.0.0; see LICENSE and NOTICE. That license does not relicense upstream Kronos, model weights, or Python dependencies.
+Workbench code and documentation are by Igor Telelyukhin with AI assistance, and are licensed under the PolyForm Noncommercial License 1.0.0; see LICENSE and NOTICE. That license does not relicense upstream Kronos, model weights, or Python dependencies.

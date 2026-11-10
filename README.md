@@ -76,7 +76,7 @@ A longer map is in [Architecture](docs/ARCHITECTURE.md). The server binds only t
 
 ### Quick start
 
-Use Python **3.10–3.12**. The tested Intel macOS configuration uses Python 3.11, PyTorch 2.2.2, and NumPy 1.26.4.
+Use Python **3.10–3.12**. A recorded dependency set is Python 3.11, PyTorch 2.2.2, and NumPy 1.26.4 (intended range: Python 3.10–3.12). Confirm the environment on your machine before a full model run.
 
 ```bash
 git clone https://github.com/TelelyukhinIgor/kronos-workbench.git
@@ -115,7 +115,7 @@ See [Data contract](docs/DATA_CONTRACT.md) for instrument mappings, missing-volu
 
 ### What has been checked
 
-Historical runs established that the original workbench could load and run Kronos on CPU, save individual scenarios, and expose them through the local interface.
+The workbench has been run with Kronos on CPU, saving individual scenarios and exposing them through the local interface.
 
 This English publication copy passes **11 offline checks** covering aggregation gaps, incomplete candles, daily dates, weekends, DST, futures breaks, safe result paths, and synthetic artifact loading. Those checks were re-run successfully on this publication host. They do not load the model or request market data.
 
@@ -147,7 +147,7 @@ This software is a research tool for inspecting model paths and data quality. It
 
 ### License
 
-Original workbench code and documentation are under the [PolyForm Noncommercial License 1.0.0](LICENSE). The upstream Kronos model code remains under MIT; its notice is preserved in [UPSTREAM-LICENSE](UPSTREAM-LICENSE). Model-weight terms remain those published with the model assets. See also [THIRD_PARTY.md](THIRD_PARTY.md) and [NOTICE](NOTICE). Commercial use of the original workbench code requires a separate license from the author.
+Workbench code and documentation are under the [PolyForm Noncommercial License 1.0.0](LICENSE). The upstream Kronos model code remains under MIT; its notice is preserved in [UPSTREAM-LICENSE](UPSTREAM-LICENSE). Model-weight terms remain those published with the model assets. See also [THIRD_PARTY.md](THIRD_PARTY.md) and [NOTICE](NOTICE). Commercial use of the workbench code requires a separate license from the author.
 
 ### Credits
 
