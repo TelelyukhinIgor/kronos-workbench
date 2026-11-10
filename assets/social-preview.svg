@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">KRONOS WORKBENCH</title>
+  <desc id="desc">Local CPU workbench for Kronos scenarios and data-quality checks.</desc>
+  <rect width="1280" height="640" fill="#0c1f2e"/>
+  <rect x="0" y="0" width="16" height="640" fill="#e8b25d"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="88" y="230" fill="#f4f7fa" font-size="64" font-weight="700" letter-spacing="1">KRONOS WORKBENCH</text>
+    <text x="88" y="310" fill="#afc1d0" font-size="30">Local CPU workbench for Kronos scenarios and data-quality checks.</text>
+    <text x="88" y="520" fill="#e8b25d" font-size="18" letter-spacing="2">IGOR TELELYUKHIN</text>
+    <text x="88" y="556" fill="#afc1d0" font-size="18">github.com/TelelyukhinIgor</text>
+  </g>
+</svg>
